@@ -1,21 +1,28 @@
-# Unlimited Imagination — Static Site
+# Unlimited‑Imagination — Website
 
-This repository contains a simple static website for Unlimited Imagination, suitable for deployment with GitHub Pages.
+This repository contains a small Vue 3 + Vite website for the Unlimited‑Imagination organization. It links to two example projects:
 
-Files included:
-- `index.html` — homepage
-- `styles.css` — basic styles
-- `README.md` — this file
+- Project Robot — create a robot from scratch
+- Project HomeManager — a sandbox to improve dev skills and help manage domestic economy
 
-How to deploy
-1. Ensure the repository exists under your account `Nando-unlimited` as `Unlimited-imagination.github.io`.
-2. Push these files to the repository’s default branch (commonly `main` or `master`).
-3. In the repository Settings → Pages, set the publishing source to the branch you pushed and the root folder (`/`).
-4. The site will be available at `https://Nando-unlimited.github.io/` (or at the user/org pages URL for the repo owner).
+Features:
+- Vue 3 + Vite
+- TailwindCSS for styling
+- Router with project pages
+- GitHub Actions workflow to build and deploy to GitHub Pages
 
-If you prefer, I can:
-- Push these files to the `main` branch (if you confirm the repo and branch exist or ask me to create the branch), or
-- Push to a different branch you specify, or
-- Provide a zip of the files for you to upload manually.
+Getting started (local):
+1. Install dependencies:
+   npm install
+2. Run dev server:
+   npm run dev
+3. Build:
+   npm run build
+4. Preview production build:
+   npm run preview
 
-Replace the placeholder project entries and the GitHub link in `index.html` with your real project information.
+Deploy to GitHub Pages:
+- A workflow is included at `.github/workflows/deploy.yml` that builds the site and publishes the `dist` folder to GitHub Pages using the official Pages deploy action.
+- After pushing to the main branch, the workflow will run and publish the site. Ensure GitHub Pages is enabled for the repository (the Actions workflow will handle the upload and deployment step).
+
+Project READMEs are available under the `projects/` directory and contain TODOs and milestones for each project.
