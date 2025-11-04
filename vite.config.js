@@ -1,8 +1,13 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
-
 export default defineConfig({
   plugins: [vue()],
-  base: process.env.GH_PAGES || '/'
+  base: '/unlimited-imagination/',
+  server: {
+    host: '0.0.0.0',
+    port: 5000,
+    strictPort: true,
+    allowedHosts: true
+  }
 })
