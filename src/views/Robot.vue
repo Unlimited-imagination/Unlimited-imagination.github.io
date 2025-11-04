@@ -67,13 +67,13 @@
                 <svg class="w-6 h-6 text-pink-600 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"></path>
                 </svg>
-                Arduino/Raspberry Pi
+                Arduino
               </li>
               <li class="flex items-start">
                 <svg class="w-6 h-6 text-pink-600 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"></path>
                 </svg>
-                Python for AI/ML
+                C++ for AI/ML
               </li>
               <li class="flex items-start">
                 <svg class="w-6 h-6 text-pink-600 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -147,7 +147,7 @@
             <div class="bg-green-50 rounded-lg p-4 border-l-4 border-green-500">
               <h4 class="font-bold text-green-900 mb-2">Phase 1: Planning & Design (Completed)</h4>
               <p class="text-gray-700">Research, concept development, and initial design specifications</p>
-              <p class="text-sm text-gray-500 mt-2">Completed: Q1 2024</p>
+              <p class="text-sm text-gray-500 mt-2">Completed: Q2 2025</p>
             </div>
           </div>
           
@@ -156,7 +156,7 @@
             <div class="bg-blue-50 rounded-lg p-4 border-l-4 border-blue-500">
               <h4 class="font-bold text-blue-900 mb-2">Phase 2: Prototype Development (In Progress)</h4>
               <p class="text-gray-700">Building the first working prototype with basic functionality</p>
-              <p class="text-sm text-gray-500 mt-2">Target: Q2 2024</p>
+              <p class="text-sm text-gray-500 mt-2">Target: Q1 2026</p>
             </div>
           </div>
           
@@ -165,7 +165,7 @@
             <div class="bg-gray-50 rounded-lg p-4 border-l-4 border-gray-300">
               <h4 class="font-bold text-gray-900 mb-2">Phase 3: Sensor Integration</h4>
               <p class="text-gray-700">Adding sensors and implementing environmental awareness</p>
-              <p class="text-sm text-gray-500 mt-2">Target: Q3 2024</p>
+              <p class="text-sm text-gray-500 mt-2">Target: Q1 2026</p>
             </div>
           </div>
           
@@ -174,7 +174,7 @@
             <div class="bg-gray-50 rounded-lg p-4 border-l-4 border-gray-300">
               <h4 class="font-bold text-gray-900 mb-2">Phase 4: AI & Machine Learning</h4>
               <p class="text-gray-700">Implementing learning algorithms and autonomous decision-making</p>
-              <p class="text-sm text-gray-500 mt-2">Target: Q4 2024</p>
+              <p class="text-sm text-gray-500 mt-2">Target: Q1 2026</p>
             </div>
           </div>
           
@@ -183,7 +183,7 @@
             <div class="bg-gray-50 rounded-lg p-4 border-l-4 border-gray-300">
               <h4 class="font-bold text-gray-900 mb-2">Phase 5: Testing & Refinement</h4>
               <p class="text-gray-700">Final testing, optimization, and documentation</p>
-              <p class="text-sm text-gray-500 mt-2">Target: Q1 2025</p>
+              <p class="text-sm text-gray-500 mt-2">Target: Q2 2026</p>
             </div>
           </div>
         </div>

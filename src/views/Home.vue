@@ -10,6 +10,7 @@
             <router-link to="/" class="text-gray-700 hover:text-indigo-600 px-3 py-2 rounded-md font-medium">Home</router-link>
             <router-link to="/robot" class="text-gray-700 hover:text-indigo-600 px-3 py-2 rounded-md font-medium">Robot</router-link>
             <router-link to="/homemanager" class="text-gray-700 hover:text-indigo-600 px-3 py-2 rounded-md font-medium">HomeManager</router-link>
+            <a class="ml-2 inline-block bg-purple-600 text-white px-3 py-1 rounded" href="https://github.com/Unlimited-Imagination" target="_blank" rel="noreferrer">GitHub</a>
           </div>
         </div>
       </div>
@@ -87,7 +88,7 @@
     <footer class="bg-gray-800 text-white mt-20">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div class="text-center">
-          <p class="text-gray-400">&copy; 2025 Unlimited-Imagination. Building the future, one project at a time.</p>
+          <p class="text-gray-400">&copy; 2025 Unlimited-Imagination. Dream it, Build it, Deploy it!.</p>
         </div>
       </div>
     </footer>
