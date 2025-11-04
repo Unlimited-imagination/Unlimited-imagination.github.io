@@ -4,5 +4,5 @@ import vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
   plugins: [vue()],
-  base: process.env.BASE_URL || '/'
+  base: process.env.GH_PAGES || '/'
 })
