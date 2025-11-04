@@ -4,7 +4,7 @@
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between h-16">
           <div class="flex items-center">
-            <h1 class="text-2xl font-bold text-indigo-600">Unlimited-Imagination</h1>
+            <img src="../assets/logo.png" alt="Unlimited Imagination Logo" class="h-12 w-12 mr-3"/>
           </div>
           <div class="flex items-center space-x-4">
             <router-link to="/" class="text-gray-700 hover:text-indigo-600 px-3 py-2 rounded-md font-medium">Home</router-link>
@@ -18,7 +18,7 @@
 
     <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <div class="text-center mb-16">
-        <h2 class="text-5xl font-extrabold text-gray-900 mb-4">Welcome to Unlimited-Imagination</h2>
+        <h2 class="text-5xl font-extrabold text-gray-900 mb-4">Welcome to Unlimited Imagination</h2>
         <p class="text-xl text-gray-600 max-w-3xl mx-auto">
           Explore innovative projects that push the boundaries of technology and creativity. 
           From robotics to personal development tools, discover our journey in building the future.
@@ -59,7 +59,7 @@
             </div>
             <div class="p-6">
               <h3 class="text-2xl font-bold text-gray-900 mb-3 group-hover:text-green-600 transition-colors">
-                HomeManager
+                Project Home Manager
               </h3>
               <p class="text-gray-600 mb-4">
                 A sandbox for improving development skills while building a practical tool for managing domestic economy.
@@ -76,7 +76,7 @@
       </div>
 
       <div class="mt-16 bg-white rounded-xl shadow-lg p-8 max-w-4xl mx-auto">
-        <h3 class="text-3xl font-bold text-gray-900 mb-4 text-center">About Unlimited-Imagination</h3>
+        <h3 class="text-3xl font-bold text-gray-900 mb-4 text-center">About Unlimited Imagination</h3>
         <p class="text-gray-600 text-lg leading-relaxed">
           Unlimited-Imagination is a space for innovative projects and creative exploration. 
           Our mission is to transform ideas into reality through technology, learning, and experimentation. 
