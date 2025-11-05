@@ -1,20 +1,5 @@
 <template>
-  <div class="min-h-screen bg-gradient-to-br from-green-50 to-teal-100">
-    <nav class="bg-white shadow-lg">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="flex justify-between h-16">
-          <div class="flex items-center">
-            <h1 class="text-2xl font-bold text-indigo-600">Unlimited-Imagination</h1>
-          </div>
-          <div class="flex items-center space-x-4">
-            <router-link to="/" class="text-gray-700 hover:text-indigo-600 px-3 py-2 rounded-md font-medium">Home</router-link>
-            <router-link to="/robot" class="text-gray-700 hover:text-indigo-600 px-3 py-2 rounded-md font-medium">Robot</router-link>
-            <router-link to="/homemanager" class="text-gray-700 hover:text-indigo-600 px-3 py-2 rounded-md font-medium">HomeManager</router-link>
-          </div>
-        </div>
-      </div>
-    </nav>
-
+  <DefaultLayout>
     <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <div class="bg-gradient-to-r from-green-500 to-teal-500 rounded-xl shadow-2xl p-8 mb-8">
         <h2 class="text-4xl font-extrabold text-white mb-4">HomeManager</h2>
@@ -206,16 +191,9 @@
         </div>
       </div>
     </main>
-
-    <footer class="bg-gray-800 text-white mt-20">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <div class="text-center">
-          <p class="text-gray-400">&copy; 2025 Unlimited-Imagination. Building the future, one project at a time.</p>
-        </div>
-      </div>
-    </footer>
-  </div>
+  </DefaultLayout>
 </template>
 
 <script setup>
+import DefaultLayout from '../layouts/DefaultLayout.vue';
 </script>
