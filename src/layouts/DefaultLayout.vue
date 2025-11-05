@@ -34,5 +34,5 @@
 </template>
 
 <script setup>
-const imgUrl = new URL('../../public/logoBG.png', import.meta.url).href;
+const imgUrl = new URL('../assets/logoBG.png', import.meta.url).href;
 </script>
